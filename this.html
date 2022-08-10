@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Моя первая настоящая HTML - страничка</title>
+</head>
+
+<body>
+    <h1 id="heading">Привет, мир!</h1>
+    <p id="aboba">Моя первая веб - страничка.</p>
+
+    <script src="https://code.jquery.com/jquery-2.1.0.js"></script>
+
+    <script>
+        var speak = function () {
+            console.log(this.sound + "! Меня зовут " + this.name + "!");
+        };
+        var cat = {
+            sound: "Мяу",
+            name: "Варежка",
+            speak: speak
+        };
+        var pig = {
+            sound: "Хрю",
+            name: "Чарли",
+            speak: speak
+        };
+        var horse = {
+            sound: "И-го-го",
+            name: "Мэри",
+            speak: speak
+        };
+    </script>
+
+
+</body>
+
+</html>
